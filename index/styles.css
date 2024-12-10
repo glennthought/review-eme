@@ -1,0 +1,346 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family: 'Century Gothic';
+    background:linear-gradient(rgb(71, 17, 102),rgb(255, 116, 21));
+
+    
+}
+.navbar {
+    font-family: 'Retro Gaming';
+    background-color: wheat;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    border-radius: 20px;
+    padding: 5px 5px;
+    margin: 10px;
+    background-image: url(star.gif);
+    background-color: rgb(215, 215, 215);
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+
+}
+    .navbar .logo {
+        font-family: 'Goudy Stout';
+        list-style: hebrew;
+        animation: effect 10s alternate infinite;
+        background-color: rgb(56, 54, 54);
+        border: solid 3px papayawhip;
+        border-radius: 9px;
+        color: papayawhip;
+    }
+
+    .navbar .nav_list {
+        list-style: none;
+        display: flex;
+    }
+.navbar .nav_list li{
+    margin: 15px;
+    display:flex;
+
+}
+        .navbar .nav_list a {
+            border: solid 2px black;
+            background-color: rgb(163, 121, 94);
+            text-decoration: none;
+            color: darkred;
+            font-size: 20px;
+            transition: color 1s;
+            border-radius: 5px;
+            padding:5px;
+        }
+        .navbar .nav_list a:hover {
+            color: orangered;
+            background-color: dimgray;
+    
+        }
+.content {
+    animation: effect 5s alternate infinite;
+}
+    .content table {
+        width: 300px;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+        border-collapse:collapse;
+        
+       
+    }
+th, td{
+    border:solid 2px black;
+    text-align:center;
+}
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 6px;
+    margin: 2px;
+}
+
+    .box .sub_content {
+        margin: 3px;
+        border: solid 2px rgb(215, 215, 215);
+        border-radius: 10px;
+        background-color: transparent;
+        text-align: center;
+        border-collapse: collapse;
+        animation: effects 20s alternate infinite ;
+        font-family: Castellar;
+        background-image: url(star.gif);
+    }
+    .box .sub_content1 {
+        margin: 3px;
+        border: solid 2px rgb(215, 215, 215);
+        border-radius: 10px;
+        background-color: transparent;
+        text-align: center;
+        border-collapse: collapse;
+        animation: effects 20s alternate infinite;
+        font-family: Castellar;
+        background-image: url(star.gif);
+        padding:10px;
+    }
+.logo {
+    animation: effects 3s alternate infinite;
+    border: solid 2px papayawhip;
+    background-color: rgb(56, 54, 54);
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 6px;
+    margin: 2px;
+}
+
+    .box1 .sub_content1 {
+        margin: 3px;
+        border: solid 2px rgb(215, 215, 215);
+        border-radius: 10px;
+        background-color: transparent;
+        text-align: center;
+        border-collapse: collapse;
+        animation: effects 20s alternate infinite;
+        font-family: Castellar;
+        background-image: url(star.gif);
+        padding: 5px 70px 5px 70px;
+    }
+
+        .box1 .sub_content1 a {
+            background: radial-gradient(dimgrey,transparent);
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            transition: color 1s;
+            border-radius: 5px;
+            padding: 2px;
+        }
+
+            .box1 .sub_content1 a:hover {
+                color: orangered;
+                background: transparent;
+            }
+            .bar{
+                align-items:center;
+                justify-content:center;
+                font-family:Arial;
+            }
+                .bar .navbars {
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    background-color: rgb(215, 215, 215);
+
+                    list-style: none;
+                }
+                .bar .navbar li {
+                    margin: 200px;
+                    display: flex;
+
+                }
+                .bar .navbars a {
+                    list-style: none;
+                    text-decoration: none;
+                    background:linear-gradient(rgb(114 112 112),rgb(180 176 176));
+                    border:solid 2px black;
+                    border-collapse:collapse;
+                    margin:2px;
+                    display:flex;
+                    font-weight:bold;
+                    color:black;
+                    transition: color 0.5s;
+            
+                }
+            .bar a:hover{
+                color:yellowgreen;
+                background-color:dimgrey;
+            }
+                .bar .sub_content {
+                    margin: 3px;
+                    border: solid 2px rgb(215, 215, 215);
+                    border-radius: 10px;
+                    background-color: transparent;
+                    text-align: center;
+                    border-collapse: collapse;
+                    color: black;
+                    font-family: Arial;
+                    font-weight:bold;
+                    background: linear-gradient(rgb(114 112 112),rgb(96 92 92));
+                }
+            p{
+                color:greenyellow;
+                text-decoration:underline;
+                padding:5px;
+                font-family:'Retro Gaming';
+                
+            }
+            .bar .sub_content .top1{
+                border:solid 2px black;
+            }
+.bar .sub_content .top2 {
+    border: solid 2px black;
+}
+.bar .sub_content .top3 {
+    border: solid 2px black;
+}
+.bar .sub_content .top4 {
+    border: solid 2px black;
+}
+.bar .sub_content .top5 {
+    border: solid 2px black;
+}
+h1 {
+    animation: text 5s alternate infinite;
+    background-image: url(star.gif);
+    padding:5px;
+    border:solid 2px rgb(215, 215, 215);
+}
+table{
+    display:none;
+}
+.dropbtn {
+    border: solid 2px black;
+    background-color: rgb(163, 121, 94);
+    text-decoration: none;
+    color: darkred;
+    font-size: 20px;
+    transition: color 1s;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+    font-family: 'Retro Gaming';
+    padding:2px;
+    margin:10px;
+}
+
+    .dropbtn:hover, .dropbtn:focus {
+        color: orangered;
+        background-color: dimgray;
+    }
+
+.dropdown {
+
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-image:url(star.gif);
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius:2px;
+}
+
+    .dropdown-content a {
+        color: grey;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        transition: color 0.2s;
+        border:solid 2px greenyellow;
+    }
+
+.dropdown a:hover {
+    animation:effect 3s alternate infinite;
+    color:darkorange;
+}
+
+.show {
+    display: block;
+}
+
+@keyframes effect {
+    10% {
+       color: red;
+    }
+    20% {
+        color: blue;
+    }
+    30% {
+        color: yellow;
+    }
+    40% {
+        color: greenyellow;
+    }
+    50% {
+        color: green;
+    }
+    60% {
+        color: pink;
+    }
+    70% {
+        color: orange;
+    }
+    80% {
+        color: red;
+    }
+    90%{
+        color: violet;   
+    }
+    100% {
+        color:pink;
+    }
+}
+@keyframes effects {
+    20% {
+        color: orangered;
+    }
+
+    40% {
+        color: greenyellow;
+    }
+
+    60% {
+        color: deepskyblue;
+    }
+
+    80% {
+        color: violet;
+    }
+
+    100% {
+        color: yellow;
+    }
+
+}
+@keyframes text{
+    20%{color:dimgrey;}
+    30%{color:indianred;}
+    40%{color:orangered}
+    50%{color:orange}
+    60%{color:darkred;}
+    70%{color:orange;}
+    80%{color:red;}
+    90%{color:darkorange;}
+    100%{color:orangered;}
+
+}
